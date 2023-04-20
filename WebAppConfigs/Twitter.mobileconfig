@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>ConsentText</key>
+<dict>
+<key>default</key>
+<string>Choose 'Install' and enter passcode if prompted.</string>
+</dict>
+ <key>PayloadContent</key>
+ <array>
+   <dict>
+     <key>FullScreen</key>
+     <true/>
+     <key>IgnoreManifestScope</key>
+     <true/>
+     <key>Icon</key>
+     <data>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</data>
+     <key>IsRemovable</key>
+     <true/>
+     <key>Label</key>
+     <string>Twitter</string>
+     <key>PayloadDescription</key>
+     <string>Turn any website into an app on your home screen</string>
+     <key>PayloadDisplayName</key>
+     <string>Web Clip (Twitter)</string>
+     <key>PayloadIdentifier</key>
+     <string>Twitter</string>
+     <key>PayloadOrganization</key>
+     <string>Me</string>
+     <key>PayloadType</key>
+     <string>com.apple.webClip.managed</string>
+     <key>PayloadUUID</key>
+     <string> f3a71277-216c-4d16-ac56-ee3e3f73ea8e</string>
+     <key>PayloadVersion</key>
+     <integer>1</integer>
+     <key>Precomposed</key>
+     <false/>
+     <key>URL</key>
+     <string>https://mobile.twitter.com/home</string>
+   </dict>
+ </array>
+ <key>PayloadDescription</key>
+ <string>Turn any website into an app on your home screen</string>
+ <key>PayloadDisplayName</key>
+ <string>Twitter</string>
+ <key>PayloadIdentifier</key>
+ <string>Twitter</string>
+ <key>PayloadOrganization</key>
+ <string>Me</string>
+ <key>PayloadRemovalDisallowed</key>
+ <false/>
+ <key>PayloadType</key>
+ <string>Configuration</string>
+ <key>PayloadUUID</key>
+ <string> f3a71277-216c-4d16-ac56-ee3e3f73ea8e</string>
+ <key>PayloadVersion</key>
+ <integer>1</integer>
+</dict>
+</plist>
